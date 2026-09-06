@@ -67,3 +67,51 @@ def cuboid_volume():
     height = float(input("Enter Height of Cuboid: "))
     volume = length * breadth * height
     print(f"The Volume of Cuboid is {volume}")
+
+
+
+
+while True:
+    print("\n===== MATH TOOLS =====")
+    print("1. Square Area")
+    print("2. Rectangle Area")
+    print("3. Circle Area")
+    print("4. Square Perimeter")
+    print("5. Rectangle Perimeter")
+    print("6. Circle Perimeter")
+    print("7. Cube Volume")
+    print("8. Cuboid Volume")
+    print("9. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        square_area()
+
+    elif choice == "2":
+        rectangle_area()
+
+    elif choice == "3":
+        circle_area()
+
+    elif choice == "4":
+        square_perimeter()
+
+    elif choice == "5":
+        rectangle_perimeter()
+
+    elif choice == "6":
+        circle_perimeter()
+
+    elif choice == "7":
+        cube_volume()
+
+    elif choice == "8":
+        cuboid_volume()
+
+    elif choice == "9":
+        print("Goodbye! 👋")
+        break
+
+    else:
+        print("❌ Invalid choice!")
