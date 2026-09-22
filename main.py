@@ -72,7 +72,7 @@ def cuboid_volume():
 
 
 while True:
-    print("\n===== MATH TOOLS =====")
+    print("\n===== MATH TOOLS =====\n")
     print("1. Square Area")
     print("2. Rectangle Area")
     print("3. Circle Area")
